@@ -24,73 +24,93 @@
       <header class="index-head">
         <div class="logo">
           <a class="logo-link" href="index.html"
-            ><span class="logo-strong">Dusty</span>coder</a
+            ><span class="logo-strong">Kushal</span>Gaywala</a
+          >
+          <a class="email" href="mailto:kushalgaywala@gmail.com"
+            >kushalgaywala@gmail.com</a
           >
         </div>
         <nav>
           <ul class="nav-links">
-            <li><a class="nav-link active" href="index.html">Home</a></li>
-            <li><a class="nav-link" href="#">Projects</a></li>
-            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link active" href="index.html">About</a></li>
+            <li><a class="nav-link active" href="#projects">Projects</a></li>
+            <!-- <li><a class="nav-link active" href="#socials">Socials</a></li> -->
+            <div class="socials" id="socials">
+              <a
+                href="https://github.com/KushalGaywala"
+                target="blank"
+                alt="github-link"
+                ><img class="social" src="./image/github-240.png" alt="github"
+              /></a>
+            </div>
           </ul>
         </nav>
       </header>
       <main class="introduction">
-        <p class="intro-self">
-          Freelancer Web Designer and Web Developer<br />
-        </p>
-        <h3 class="intro-detail">
-          <a class="intro-link" href="#">FULL Description</a>
-        </h3>
+        <h1 class="intro-heading"># Hi, I am Kushal Gaywala</h1>
+        <div class="intro-self">
+          <img
+            src="./image/profile-photo.png"
+            alt="Kushal"
+            class="intro-image"
+          />
+          <p class="intro-detail">
+            A Master’s student in Data and Computer Science, aged 23. I have
+            completed 3 projects that require knowledge of Data Engineering and
+            Analysis. Additionally, I have developed multiple real-world web
+            applications using the latest web technologies. I am interested in
+            the field of Software Engineering along with Data Science.<br />
+          </p>
+        </div>
       </main>
-      <div class="projects">
-        <div class="project project-1">
-          <a class="project-link" href="#">
-            <p class="project-discription">
-              Autem eaque assumenda praesentium facilis doloremque, possimus,
-              unde deleniti rem voluptatibus
-            </p>
-            <div class="project-btn">view Project</div>
-          </a>
-        </div>
-        <div class="project project-2">
-          <a class="project-link" href="#">
-            <p class="project-discription">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              distinctio. Id
-            </p>
-            <div class="project-btn">view Project</div>
-          </a>
-        </div>
-        <div class="project project-3">
-          <a class="project-link" href="#">
-            <p class="project-discription">
-              Autem eaque assumenda praesentium facilis doloremque, possimus,
-              unde deleniti rem voluptatibus, fugiat at?
-            </p>
-            <div class="project-btn">view Project</div>
-          </a>
-        </div>
-        <div class="project project-4">
-          <a class="project-link" href="#">
-            <p class="project-discription">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              distinctio. Id, officia beatae
-            </p>
-            <div class="project-btn">view Project</div>
-          </a>
+      <div class="projects-container" id="projects">
+        <h2 class="projects-heading">## Projects</h2>
+        <div class="projects">
+          <div class="project project-1">
+            <a
+              class="project-link"
+              href="https://github.com/pvs-hd-tea/23ws-LLMcoder"
+              target="blank"
+            >
+              <h3 class="project-heading">LLMcoder</h3>
+              <p class="project-description">
+                <span>LLM based Coding Assistant</span>, feedback based code completion with
+                fine-tuned GPT-3.5 base model, Mypy, Jedi, and Meta-strategies
+                including De-hallucination, Tree-of-Thoughts, and
+                Graph-of-Thoughts.
+              </p>
+            </a>
+          </div>
+          <div class="project project-2">
+            <a class="project-link" href="#">
+              <h3 class="project-heading">LLM Legal Assistant</h3>
+              <p class="project-description">
+                <span>Question/Answering System Augmented on EU Laws</span>, developed by following Retrieval 
+                Augmented Generation (RAG) architecture on EUR-lex documents, using
+                Llama_7b-4_bit_Q, LangChain, LlamaIndex, HuggingFace, and ChromaDB.
+              </p>
+            </a>
+          </div>
+          <div class="project project-3">
+            <a class="project-link" href="#">
+              <p class="project-description">
+                Autem eaque assumenda praesentium facilis doloremque, possimus,
+                unde deleniti rem voluptatibus, fugiat at?
+              </p>
+            </a>
+          </div>
+          <div class="project project-4">
+            <a class="project-link" href="#">
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                distinctio. Id, officia beatae
+              </p>
+            </a>
+          </div>
         </div>
       </div>
       <footer class="index-footer">
-        <p class="trademark">@Copyright Kushal Gaywala</p>
-        <div class="socials">
-          <a href="#"
-            ><img class="social" src="./image/email-90.png" alt="e-mail"
-          /></a>
-          <a href="#"
-            ><img class="social" src="./image/github-240.png" alt="github"
-          /></a>
-        </div>
+        <!-- <p class="trademark"></p> -->
       </footer>
     </div>
   </body>
